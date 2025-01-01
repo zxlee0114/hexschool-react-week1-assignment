@@ -11,7 +11,7 @@ th:not(:first-child), td {
     cursor: pointer;
 }
 
-.img-container{
+.card-img-top {
     width: 100%;
     height: 320px;
     overflow: hidden;
