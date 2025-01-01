@@ -3,6 +3,10 @@ img {
   max-width: 100%;
 }
 
+li {
+    margin-bottom: 4px;
+}
+
 th:not(:first-child), td {
   text-align: center;
 }

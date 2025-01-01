@@ -111,17 +111,23 @@
               <ul className="list-unstyled">
                 <li className="card-text">
                   <b>商品描述：</b>
+                  <br />
                   {productDetail.description}
                 </li>
                 <li className="card-text">
                   <b>商品內容：</b>
+                  <br />
                   {productDetail.content}
                 </li>
                 <li className="card-text">
-                  <del className="text-secondary">
+                  <b>商品售價：</b>
+                  <br />
+                  <del className="text-secondary me-2">
                     {productDetail.origin_price} {productDetail.unit}
                   </del>
-                  / {productDetail.price} {productDetail.unit}
+                  <span className="fs-5">
+                    {productDetail.price} {productDetail.unit}
+                  </span>
                 </li>
               </ul>
               <h5 className="card-title fw-bold">更多圖片</h5>
